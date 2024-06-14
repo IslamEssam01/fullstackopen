@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -18,6 +19,7 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser starts executing the JavaScript code that fetches the JSON from the server
+```
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
